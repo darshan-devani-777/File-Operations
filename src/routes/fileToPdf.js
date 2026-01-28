@@ -5,9 +5,9 @@ const path = require("path");
 const os = require("os");
 const fs = require("fs");
 
-const { pptToPdf } = require("../utils/pptToPdf");
-const { wordToPdf } = require("../utils/wordToPdf");
-const { excelToPdf } = require("../utils/excelToPdf");
+const { pptToPdf } = require("../utils/pptTopdf");
+const { wordToPdf } = require("../utils/wordTopdf");
+const { excelToPdf } = require("../utils/excelTopdf");
 
 const upload = multer({
   limits: { fileSize: 20 * 1024 * 1024 },
